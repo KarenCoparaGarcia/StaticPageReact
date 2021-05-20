@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 export default function Footer() {
   return (
@@ -31,9 +31,121 @@ export default function Footer() {
             </li>
           </ol>
           <hr></hr>
+          <div className="footerdiv">
+            <div className="texto">
+              <label>
+                <b>Descubrir</b>
+              </label>
+              <p>
+                <a>ipad</a>
+              </p>
+              <p>
+                <a>iphone</a>
+              </p>
+              <p>
+                <a>watch</a>
+              </p>
+              <p>
+                <a>TV</a>
+              </p>
+              <p>
+                <a>Music</a>
+              </p>
+              <p>
+                <a>AirPods</a>
+              </p>
+              <p>
+                <a>iPod tocuh</a>
+              </p>
+              <p>
+                <a>AirTag</a>
+              </p>
+            </div>
+            <div className="texto">
+              <label>
+                <b>servicios</b>
+              </label>
+              <p>
+                <a>Apple Music</a>
+              </p>
+              <p>
+                <a>Apple TV+</a>
+              </p>
+              <p>
+                <a>Apple Arcade</a>
+              </p>
+              <p>
+                <a>iCloud</a>
+              </p>
+              <p>
+                <a>Apple One</a>
+              </p>
+              <p>
+                <a>Apple Books</a>
+              </p>
+              <p>
+                <a>App Store</a>
+              </p>
+              <label>
+                <b>Cuenta</b>
+              </label>
+              <p>
+                <a>Administrar tu Apple ID</a>
+              </p>
+              <p>
+                <a>iCloud.com</a>
+              </p>
+            </div>
+            <div className="texto">
+              <label>
+                <b>Para la Empresa</b>
+              </label>
+              <p>
+                <a>Apple y la empresa</a>
+              </p>
+            </div>
+            <div className="texto">
+              <label>
+                <b>Valores de Apple</b>
+              </label>
+              <p>
+                <a>Accesibilidad</a>
+              </p>
+              <p>
+                <a>Medio Ambiente</a>
+              </p>
+              <p>
+                <a>Privacidad</a>
+              </p>
+              <label>
+                <b>Acerca de Apple.</b>
+              </label>
+              <p>
+                <a>Newsroom</a>
+              </p>
+              <p>
+                <a>Directivos de Apple</a>
+              </p>
+              <p>
+                <a>Oportunidades de empleo</a>
+              </p>
+              <p>
+                <a>Inversionistas</a>
+              </p>
+              <p>
+                <a>Eventos</a>
+              </p>
+            </div>
+          </div>
+          <div>
+            <p>
+              <a style={{ color: "blue" }}>Busca un distribuidor.</a>
+              cerca de ti.
+            </p>
+          </div>
+          <hr></hr>
         </div>
       </div>
     </div>
   );
 }
-
